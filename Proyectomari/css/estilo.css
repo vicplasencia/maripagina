@@ -1,0 +1,88 @@
+/*estilos de la fuente*/
+
+/**/
+
+.h1{
+    color: black;
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    color: black;
+    font-size: em;
+    text-align: center;
+}
+/*boddy*/
+
+/*header*/
+.header{
+    font-size: 10px;
+    
+    .logo{
+        width: 100px;
+    }
+    nav{
+        ul{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 2em;
+                
+            }
+        }
+    }
+}
+/*Estilos seccion principal del index*/
+.principalIndex{
+background-image: url(../assets/img/living_1920.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 85vh;
+
+.contenedorTextoPrincipal{
+    text-align: justify;
+    width: 50%;
+    font-size: 10px;
+    color: black;
+    /*propiedades blur y brackdrop-blur*/
+    /*filter: blur(10px) brightness(0.5);*/
+    backdrop-filter: blur(15px);
+    p{
+        font-size: 2.5em; 
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+    }
+}
+}
+
+/* service*/
+.service{
+    img{
+        width: 30%;
+    }
+}
+
+/*footer*/
+
+.footer{
+    .logo{
+        width: 100px;
+    }
+    nav{
+        ul{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 2em;
+                
+            }
+        }
+    }
+    
+}
